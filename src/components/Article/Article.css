@@ -1,0 +1,17 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: yellow;
+  /* box-sizing: border-box; */
+}
+
+.section .section__image {
+  /* width: 70%; */
+  height: 200px;
+}
+.section .section__image img {
+  width: 100%;
+}
