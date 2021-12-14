@@ -1,7 +1,9 @@
+import Article from "./components/Article/Article";
+
 const App = () => {
   return (
     <div>
-      <h1>Joseph</h1>
+      <Article />
     </div>
   );
 };
