@@ -27,7 +27,7 @@ const Article = () => {
             <strong>Michelle Appleton</strong>
             <span> 28 Jun 2020</span>
           </div>
-          <div>
+          <div className="share">
             <i class="fas fa-share"></i>
           </div>
         </div>

@@ -11,5 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-size: 13px;
   padding: 0 20%;
+  background-color: hsl(212, 23%, 69%);
+  background-color: hsl(210, 46%, 95%);
 }

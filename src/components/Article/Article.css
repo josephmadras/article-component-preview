@@ -4,14 +4,73 @@
   justify-content: center;
   border-radius: 10px;
   overflow: hidden;
-  background-color: yellow;
-  /* box-sizing: border-box; */
+  height: 300px;
+  background-color: white;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1.01rem;
 }
-
 .section .section__image {
-  /* width: 70%; */
-  height: 200px;
+  width: 400px;
 }
 .section .section__image img {
   width: 100%;
+}
+
+.section__content {
+  padding: 10px 40px;
+  width: 500px;
+  background-color: white;
+  z-index: 999;
+  margin-left: -50px;
+  height: 100%;
+}
+.section__content h1 {
+  color: hsl(217, 19%, 35%);
+  padding-top: 1rem;
+}
+.section__content p {
+  padding: 15px 0;
+  font-size: 0.95rem;
+  color: hsl(217, 19%, 35%);
+}
+.section__userAvatar img {
+  width: 45px;
+  border-radius: 50%;
+}
+
+.section__userDetails {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.section__userNameDate {
+  margin-left: 10px;
+}
+.section__userNameDate strong {
+  color: hsl(217, 19%, 35%);
+}
+.section__userNameDate span {
+  color: hsl(212, 23%, 69%);
+}
+.section__userNameDate > * {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: hsl(210, 46%, 95%);
+  cursor: pointer;
+}
+
+.share i {
+  color: hsl(217, 19%, 35%);
+  font-size: 15px;
 }
