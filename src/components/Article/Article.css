@@ -74,3 +74,46 @@
   color: hsl(217, 19%, 35%);
   font-size: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+  }
+
+  .section .section__image {
+    width: inherit;
+    height: 200px;
+  }
+  .section .section__image img {
+    width: 100%;
+  }
+
+  .section__content h1 {
+    font-size: 0.95rem;
+  }
+
+  .section__content {
+    padding: 0 40px;
+    padding: 0;
+    width: inherit;
+    margin-left: 0;
+  }
+
+  .section__content h1 {
+    padding: 25px 25px 0 25px;
+  }
+}
+.section__content p {
+  padding: 12px 25px 25px 25px;
+}
+
+.section__userNameDate > * {
+  font-size: 0.85rem;
+}
+
+.section__userDetails {
+  padding: 0 25px 10px 25px;
+}
